@@ -1,0 +1,41 @@
+#secondElement {
+    display: none;
+}
+#secondElement label,
+#secondElement p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+#secondElement input[type="text"] {
+    width: 50px;
+    margin-bottom: 10px;
+}
+select {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 45px;
+}
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    right: 10px;
+    bottom: -7px;
+}
+.hidden {
+    display: none;
+}
+#down {
+    width: 150px;
+    position: relative;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
